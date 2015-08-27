@@ -1,0 +1,2 @@
+unset GOPATH
+# TODO: also remove GOPATH/bin from PATH 
