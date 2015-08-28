@@ -1,4 +1,0 @@
-$ mkdir -p ~/workspace/go
-$ export GOPATH=~/workspace/go
-$ export PATH=~/workspace/go/bin:$PATH
-$ cd ~/workspace/go
