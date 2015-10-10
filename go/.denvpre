@@ -2,6 +2,8 @@
 
 GOPATH=~/workspace/go
 
-mkdir -p GOPATH
+mkdir -p $GOPATH
 # install gvm
-bash < <(curl -s -S -L https://raw.githubusercontent.com/moovweb/gvm/master/binscripts/gvm-installer)
+if [! -d ~/.gvm ]; then
+	bash < <(curl -s -S -L https://raw.githubusercontent.com/moovweb/gvm/master/binscripts/gvm-installer)
+fi
