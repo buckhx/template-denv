@@ -12,3 +12,4 @@
 .denv*
 .ssh
 .viminfo
+.local
