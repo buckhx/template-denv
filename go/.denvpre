@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
-mkdir -p ~/workspace/go
-export GOPATH=~/workspace/go
-export PATH=~/workspace/go/bin:$PATH
-cd ~/workspace/go
+GOPATH=~/workspace/go
+
+mkdir -p GOPATH
+# install gvm
+bash < <(curl -s -S -L https://raw.githubusercontent.com/moovweb/gvm/master/binscripts/gvm-installer)
